@@ -214,7 +214,7 @@ for i in range(0, 5, 1):
     feature_label_train, feature_er_train, s_train1, s_train2 = np.hsplit(data_total_train, (50, 70, 771))
     feature_label_val, feature_er_val, s_val1, s_val2 = np.hsplit(data_total_val, (50, 70, 771))
 
-    # 训练神经网络
+    # train
     PILN(feature_label_train, feature_er_train, s_train1, s_train2, feature_label_val, feature_er_val, s_val1, s_val2, s_list_3[i])
     # retrain(feature_label_train, feature_er_train, s_train1, s_train2, feature_label_val, feature_er_val, s_val1, s_val2, s_list_3[i])
 

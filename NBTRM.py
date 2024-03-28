@@ -6,7 +6,7 @@ with support of this code, you can generate the NURBS curve with five control po
 and the 50-bit pixel matrix of the curve
 
 this code is used to generate the 10000 nurbs CURVE
-three examples are shown in th end"""
+two important examples are shown in th end"""
 
 import math
 import pandas as pd
@@ -108,4 +108,3 @@ def nurbs_pixel(size):
 # # three examples
 pixel_generate([5, 9.3, 1.8, 10.2, 9.1, 0, 0.3, 4.4, 2.5, 1.1])
 pixel_generate([5, 11, 5.56, 0, 1.209, 0, 2.88, 6, 1.87, 0])
-pixel_generate([5, 6.93, 0, 0.335, 4, 0, 1.05, 0, 0, 6])
